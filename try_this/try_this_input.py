@@ -21,8 +21,7 @@ for i in cmd:
     isExistsComma = True
     break
 
-# validation?   
-if isExistsComma == False:
+# validation?   if isExistsComma == False:
   print(error_msg)
   exit()
 
